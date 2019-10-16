@@ -14,6 +14,9 @@
 ![readme-3](./img/readme-3.png)
   
 6. Firebase에서 제시하는 대로 진행  
+참고) Podfile 입력 시  
+pod 'Firebase/Messaging'  
+이것도 추가로 입력해야 함  
   
 7. https://developer.apple.com/account/resources/ 접속  
   
