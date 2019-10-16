@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A517377E3CBC559C6E91D4E /* Pods_fcm_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02932F55B3D3E69B706C917D /* Pods_fcm_swift.framework */; };
 		8959127D2356EAA100CC934F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8959127C2356EAA100CC934F /* AppDelegate.swift */; };
 		8959127F2356EAA100CC934F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8959127E2356EAA100CC934F /* SceneDelegate.swift */; };
 		895912812356EAA100CC934F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895912802356EAA100CC934F /* ContentView.swift */; };
 		895912832356EAAC00CC934F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895912822356EAAC00CC934F /* Assets.xcassets */; };
 		895912862356EAAC00CC934F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895912852356EAAC00CC934F /* Preview Assets.xcassets */; };
 		895912892356EAAC00CC934F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895912872356EAAC00CC934F /* LaunchScreen.storyboard */; };
+		895912912356F00100CC934F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 895912902356F00100CC934F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02932F55B3D3E69B706C917D /* Pods_fcm_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fcm_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B65E119E0871C53469631D1 /* Pods-fcm-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fcm-swift.debug.xcconfig"; path = "Target Support Files/Pods-fcm-swift/Pods-fcm-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		895912792356EAA100CC934F /* fcm-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fcm-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8959127C2356EAA100CC934F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8959127E2356EAA100CC934F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,9 @@
 		895912852356EAAC00CC934F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		895912882356EAAC00CC934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8959128A2356EAAC00CC934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895912902356F00100CC934F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		895912922357020100CC934F /* fcm-swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fcm-swift.entitlements"; sourceTree = "<group>"; };
+		D916F799C89601B8778117F3 /* Pods-fcm-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fcm-swift.release.xcconfig"; path = "Target Support Files/Pods-fcm-swift/Pods-fcm-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A517377E3CBC559C6E91D4E /* Pods_fcm_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51D9DD72FA0F935EC4DFCA37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02932F55B3D3E69B706C917D /* Pods_fcm_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76D26C74A94D8E8E45F58FFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B65E119E0871C53469631D1 /* Pods-fcm-swift.debug.xcconfig */,
+				D916F799C89601B8778117F3 /* Pods-fcm-swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		895912702356EAA100CC934F = {
 			isa = PBXGroup;
 			children = (
 				8959127B2356EAA100CC934F /* fcm-swift */,
 				8959127A2356EAA100CC934F /* Products */,
+				76D26C74A94D8E8E45F58FFB /* Pods */,
+				51D9DD72FA0F935EC4DFCA37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +83,8 @@
 		8959127B2356EAA100CC934F /* fcm-swift */ = {
 			isa = PBXGroup;
 			children = (
+				895912922357020100CC934F /* fcm-swift.entitlements */,
+				895912902356F00100CC934F /* GoogleService-Info.plist */,
 				8959127C2356EAA100CC934F /* AppDelegate.swift */,
 				8959127E2356EAA100CC934F /* SceneDelegate.swift */,
 				895912802356EAA100CC934F /* ContentView.swift */,
@@ -82,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8959128D2356EAAC00CC934F /* Build configuration list for PBXNativeTarget "fcm-swift" */;
 			buildPhases = (
+				B8243B48F6AF61300DFB83EC /* [CP] Check Pods Manifest.lock */,
 				895912752356EAA100CC934F /* Sources */,
 				895912762356EAA100CC934F /* Frameworks */,
 				895912772356EAA100CC934F /* Resources */,
+				6874768899586557E828D543 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,12 +165,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				895912892356EAAC00CC934F /* LaunchScreen.storyboard in Resources */,
+				895912912356F00100CC934F /* GoogleService-Info.plist in Resources */,
 				895912862356EAAC00CC934F /* Preview Assets.xcassets in Resources */,
 				895912832356EAAC00CC934F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6874768899586557E828D543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fcm-swift/Pods-fcm-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fcm-swift/Pods-fcm-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fcm-swift/Pods-fcm-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8243B48F6AF61300DFB83EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fcm-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		895912752356EAA100CC934F /* Sources */ = {
@@ -282,8 +356,10 @@
 		};
 		8959128E2356EAAC00CC934F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B65E119E0871C53469631D1 /* Pods-fcm-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "fcm-swift/fcm-swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"fcm-swift/Preview Content\"";
 				DEVELOPMENT_TEAM = 68YFA4GQT6;
@@ -302,8 +378,10 @@
 		};
 		8959128F2356EAAC00CC934F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D916F799C89601B8778117F3 /* Pods-fcm-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "fcm-swift/fcm-swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"fcm-swift/Preview Content\"";
 				DEVELOPMENT_TEAM = 68YFA4GQT6;
