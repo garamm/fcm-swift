@@ -30,6 +30,11 @@
 		8959128A2356EAAC00CC934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		895912902356F00100CC934F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		895912922357020100CC934F /* fcm-swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fcm-swift.entitlements"; sourceTree = "<group>"; };
+		89591293235707E600CC934F /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89591294235707E600CC934F /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89591295235707E600CC934F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89591296235707E600CC934F /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895912A02357130F00CC934F /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		D916F799C89601B8778117F3 /* Pods-fcm-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fcm-swift.release.xcconfig"; path = "Target Support Files/Pods-fcm-swift/Pods-fcm-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +53,11 @@
 		51D9DD72FA0F935EC4DFCA37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				895912A02357130F00CC934F /* PushKit.framework */,
+				89591293235707E600CC934F /* FirebaseCore.framework */,
+				89591294235707E600CC934F /* FirebaseCoreDiagnostics.framework */,
+				89591295235707E600CC934F /* FirebaseInstanceID.framework */,
+				89591296235707E600CC934F /* FirebaseMessaging.framework */,
 				02932F55B3D3E69B706C917D /* Pods_fcm_swift.framework */,
 			);
 			name = Frameworks;

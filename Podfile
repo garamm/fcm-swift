@@ -5,9 +5,9 @@ target 'fcm-swift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for fcm-swift
-  # add the Firebase pod for Google Analytics
+  # Pods for dcm-swift
   pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
 
 
 end
