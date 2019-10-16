@@ -5,7 +5,7 @@
 2. https://firebase.google.com 접속<br>
 <br>
 3. 시작하기 클릭<br>
-![readme-1](./img/readme-1.png)
+[![readme-1](./img/readme-1.png)]
 <br>
 4. 프로젝트 추가<br>
 ![readme-2](./img/readme-2.png)
