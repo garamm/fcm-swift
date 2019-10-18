@@ -57,4 +57,42 @@ pod 'Firebase/Messaging'
 18. Xcode로 돌아와서 프로젝트 > Signing & Capabilities > + Capability > Notification 선택  
 ![readme-15](./img/readme-15.png)
   
-19. 코드 작성  
+19. 같은 방법으로  Background Modes 추가 및 Remote notifications에 체크  
+![readme-16](./img/readme-16.png)
+  
+20. Fire > New > Target... > Notification Service Extension > 생성 > Activate    
+![readme-17](./img/readme-17.png)
+![readme-18](./img/readme-18.png)
+  
+21. 생성된 NotifictionService 폴더 내의 Info.plist에 다음과 같이 추가  
+![readme-19](./img/readme-19.png)
+  
+22. 소스코드 추가    
+  
+23. Postman으로 전송 테스트 해보기  
+POST  
+url : https://fcm.googleapis.com/fcm/send  
+header  
+ㄴ Content-Type: application/json  
+ㄴ Authorization: key=서버키   
+![readme-21](./img/readme-21.png)
+Body  
+```
+{  
+    "to": "토큰 혹은 토픽",
+    "content_available": true,
+    "mutable_content": true,
+    "priority": "high",
+    "data": {
+        "message": "테스트",
+        "attachment": "이미지경로"
+    },
+    "notification": {
+        "title": "제목",
+        "body": "내용",
+        "sound": "default",
+        "badge": "1"
+    }
+}
+```
+![readme-22](./img/readme-22.png)
