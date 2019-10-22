@@ -78,21 +78,23 @@ header
 ![readme-21](./img/readme-21.png)
 Body  
 ```
-{  
+{
     "to": "토큰 혹은 토픽",
     "content_available": true,
     "mutable_content": true,
     "priority": "high",
     "data": {
-        "message": "테스트",
-        "attachment": "이미지경로"
+        "title": "ttt",
+        "msg": "mmm",
+        "imgUrl": "이미지 경로"
     },
     "notification": {
-        "title": "제목",
-        "body": "내용",
+        "title": "ttt",
+        "body": "mmm",
         "sound": "default",
         "badge": "1"
     }
 }
+
 ```
 ![readme-22](./img/readme-22.png)
