@@ -15,6 +15,7 @@
 		895912862356EAAC00CC934F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895912852356EAAC00CC934F /* Preview Assets.xcassets */; };
 		895912892356EAAC00CC934F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895912872356EAAC00CC934F /* LaunchScreen.storyboard */; };
 		895912912356F00100CC934F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 895912902356F00100CC934F /* GoogleService-Info.plist */; };
+		89B4CDDB235EBE3100C18CA5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89B4CDDA235EBE3100C18CA5 /* README.md */; };
 		89F67D8F2358094D009FB66F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F67D8E2358094D009FB66F /* NotificationService.swift */; };
 		89F67D932358094D009FB66F /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 89F67D8C2358094D009FB66F /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		89591295235707E600CC934F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89591296235707E600CC934F /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		895912A02357130F00CC934F /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		89B4CDDA235EBE3100C18CA5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		89F67D8C2358094D009FB66F /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F67D8E2358094D009FB66F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		89F67D902358094D009FB66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		895912702356EAA100CC934F = {
 			isa = PBXGroup;
 			children = (
+				89B4CDDA235EBE3100C18CA5 /* README.md */,
 				8959127B2356EAA100CC934F /* fcm-swift */,
 				89F67D8D2358094D009FB66F /* NotificationService */,
 				8959127A2356EAA100CC934F /* Products */,
@@ -246,6 +249,7 @@
 			files = (
 				895912892356EAAC00CC934F /* LaunchScreen.storyboard in Resources */,
 				895912912356F00100CC934F /* GoogleService-Info.plist in Resources */,
+				89B4CDDB235EBE3100C18CA5 /* README.md in Resources */,
 				895912862356EAAC00CC934F /* Preview Assets.xcassets in Resources */,
 				895912832356EAAC00CC934F /* Assets.xcassets in Resources */,
 			);
