@@ -42,6 +42,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("'all' 토픽 구독 완료")
         }
         
+        // ios topic 구독
+        Messaging.messaging().subscribe(toTopic: "ios") { error in
+            print("'ios' 토픽 구독 완료")
+        }
+        
         // 앱 접속시 뱃지 초기화
         application.applicationIconBadgeNumber = 0
         
