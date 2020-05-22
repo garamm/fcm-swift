@@ -142,12 +142,13 @@ Body
     "priority": "high",
     "data": {
         "title": "ttt",
-        "msg": "mmm",
-        "imgUrl": "이미지 경로"
+        "body": "mmm",
+        "image": "이미지 경로"
     },
     "notification": {
         "title": "ttt",
         "body": "mmm",
+        "image": "이미지 경로",
         "sound": "default",
         "badge": "1"
     }
